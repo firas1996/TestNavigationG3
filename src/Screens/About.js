@@ -10,7 +10,7 @@ const About = ({ navigation }) => {
     navigation.navigate("Home");
   };
   const goToContact = () => {
-    navigation.navigate("Contact", { abc: "green" });
+    navigation.navigate("Contact");
   };
   return (
     <View style={styles.container}>
