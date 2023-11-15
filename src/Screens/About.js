@@ -10,7 +10,10 @@ const About = ({ navigation }) => {
     navigation.navigate("Home");
   };
   const goToContact = () => {
-    navigation.navigate("Contact");
+    navigation.navigate("Contact", {
+      token: "this is from about",
+      abc: "blue",
+    });
   };
   return (
     <View style={styles.container}>
